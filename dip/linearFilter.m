@@ -1,8 +1,8 @@
 function I = linearFilter(I,F)
 %F - filter of size (2K+1) * (2L+1)
-if (length(size(I))== 3
-    I = rgb2gray(I);
-end
+   if (length(size(I))==3)
+        I = rgb2gray(I);
+   end
 
 [M,N] = size(I);
 [k,l] = size(F);
