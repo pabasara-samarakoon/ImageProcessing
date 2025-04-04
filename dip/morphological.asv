@@ -1,0 +1,5 @@
+%Dialation
+BW1 = zeros(9,10);
+BW1 = (4:6,4:7)=1;
+SE = strel('square',3);
+Bw2 = imdialate(BW1,SE);
