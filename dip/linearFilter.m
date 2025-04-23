@@ -18,8 +18,7 @@ for x = (K+1) : (M-K)
                 S = S+uint32(P);
             end
         end
-        q = S/(k*1);
+        q = S/(k*l);
         I(x,y) = q;
     end
-end
 end
